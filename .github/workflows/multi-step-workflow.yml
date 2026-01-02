@@ -20,7 +20,6 @@ jobs:
       # Étape 3 : afficher la date actuelle
       - name: Date
         run: date
-
-      # Étape 4 : afficher le nom de la branche
+# Étape 4 : afficher le nom de la branche
       - name: Branche
-        run: echo "Branche : ${{ github.ref }}"
+        run: echo 'Branche : ${{ github.ref }}'
